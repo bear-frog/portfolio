@@ -137,9 +137,9 @@ function App() {
                     </Toolbar>
                 </Container>
             </AppBar>
-            <main>
+            <Box style={{height: '100vh'}} sx={{  display: 'flex', flexDirection: 'column', justifyContent: 'center',  alignItems: 'center' }}>
                 {renderPage(option)}
-            </main>
+            </Box>
         </div>
     );
 }
